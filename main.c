@@ -3,7 +3,7 @@
 int main(void)
 {
     double r;
-    scanf("%d", &r);
+    scanf("%f", &r);
     if (r > 0)
     {
         printf("%.2f", r * r * 22.0);
